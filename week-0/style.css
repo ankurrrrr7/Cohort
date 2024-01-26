@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Inter:wght@400;600;700&family=Macondo&family=Poppins&family=Tilt+Neon&display=swap");
+
+body{
+    font-family: 'Inter','sans-serif';
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px #dcdcdc;
+}
+.header img{
+    width: 170px;
+    padding: 25px 25px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.header .header-info ul{
+    display: flex;
+    gap: 55px;
+    list-style: none;
+    color: #423d3dd0;
+    cursor: pointer;
+    margin-right: 200px;
+    margin-top: 28px;
+}
+.landing {
+    display: flex;
+    justify-content: center;
+}
+.landing-main{
+    width:620px;
+    margin-top: 20px;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h3{
+    padding-top: 10px;
+  font-size: 44px;
+  font-weight: 500;
+  color: rgb(29, 24, 24);
+}
+h4{
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: -15px;
+}
+button{
+    border: none;
+    background-color: #387ED1;
+    color: #ffffff;
+    font-size: 19px;
+    width: 174px;
+    height: 45px;
+    border-radius: 2px;
+}
+button:hover{
+    background-color: black;
+}
+ul li:hover{
+    color: #387ED1;
+    cursor: pointer;
+}
