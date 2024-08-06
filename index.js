@@ -75,3 +75,36 @@ function greet(){
 }
 
  setTimeout(greet, 1*1000);
+
+ // loops 
+  let ans  = 0
+
+  for(let num1 =1; num1<=50; num1++){
+    ans = ans + num1;
+    console.log(ans);
+  }
+
+// calllbacks example
+function sum(n){
+  let ans = 0;
+  for(let i =0;  i<=n; i++){
+    ans+=i;
+  }
+  return ans;
+
+}
+ans = sum(5)
+console.log(ans);
+
+
+function square (n){
+  return n*n;
+
+}
+
+function sumOfSquare(a,b){
+    const val1 = square(a);
+    const val2 = square(b);
+    return val1+val2;
+}
+console.log(sumOfSquare(1,2));
