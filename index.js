@@ -84,7 +84,7 @@ function greet(){
     console.log(ans);
   }
 
-// calllbacks example
+// function example
 function sum(n){
   let ans = 0;
   for(let i =0;  i<=n; i++){
@@ -96,15 +96,17 @@ function sum(n){
 ans = sum(5)
 console.log(ans);
 
-
+// callback example
 function square (n){
   return n*n;
 
 }
-
-function sumOfSquare(a,b){
-    const val1 = square(a);
-    const val2 = square(b);
+function cube (n){
+  return n*n*n;
+}
+function sumOfSquare(a,b,callback){
+    const val1 = callback(a);
+    const val2 = callback(b);
     return val1+val2;
 }
-console.log(sumOfSquare(1,2));
+console.log("Answere:" + sumOfSquare(1,2,square));
